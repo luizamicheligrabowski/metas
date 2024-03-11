@@ -55,7 +55,21 @@ font-size: 32px;
 .botoes {
     display: block;
 }
+
+.ativo{
+    background-color:var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
 @media screen and(min-width: 768px)
     .botoes{
         display: flex;
     }
+
+.botao:first-child{
+    border-radius: 40px 000;
+}
+
+.botao:last-child{
+    border-radius: 0 40px 0,0;
+}
